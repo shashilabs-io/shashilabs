@@ -28,7 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main className="flex min-h-screen w-full max-w-6xl min-w-0 mx-auto">
 
     {/* Left Sidebar */}
-    <div className="hidden w-40 shrink-0 border-r border-gray-300 md:flex md:min-h-screen md:flex-col lg:w-48">
+    <div className="hidden w-40 shrink-0 border-r border-gray-300 md:sticky md:top-0 md:flex md:h-screen md:flex-col lg:w-48">
 
       {/* Navbar */}
       <nav className="flex-1 flex items-center justify-center">
